@@ -1,0 +1,21 @@
+{
+   "name": "webportfolio",
+   "version": "1.0.0",
+   "description": "",
+   "private": true,
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "webpack"
+   },
+   "keywords": [],
+   "author": "Diana Advani and Becca Milman",
+   "license": "ISC",
+   "devDependencies": {
+      "webpack-cli": "^3.2.1"
+   },
+   "dependencies": {
+      "lodash": "^4.17.11",
+      "vue": "^2.5.22",
+      "webpack": "^4.28.4"
+   }
+}
