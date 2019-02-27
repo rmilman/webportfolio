@@ -4,9 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import Vuesax from 'vuesax'
-import blog from '@/components/Blog'
+
 import 'vuesax/dist/vuesax.css'
-import 'material-icons/iconfont/material-icons.css'
+
 
 Vue.config.productionTip = false
 Vue.use(Vuesax)
@@ -15,6 +15,6 @@ Vue.use(Vuesax)
 new Vue({
   el: '#app',
   router,
-  components: { App, blog },
+  components: { App},
   template: '<App/>'
 })
